@@ -223,8 +223,9 @@ body{
 }
 .pro-content {
     padding-left: 15%;
-    
-    
+}
+.pro-content a{
+    color:rgb(8, 8, 9);
 }
 
 .contact{
