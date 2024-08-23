@@ -267,7 +267,7 @@ body{
         height: 250px; /* Maintain the aspect ratio */
         position: absolute; /* Position the image absolutely */
         top: 18%; /* Align to the top */
-        margin-left:20%/* Align to the left */
+        margin-left:20%;/* Align to the left */
         margin: 10px;/* Optional: add margin to prevent touching the edges */
         border-radius: 100px;
         display: flex;
