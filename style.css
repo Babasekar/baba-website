@@ -96,7 +96,7 @@ body{
     height: 250px; /* Maintain the aspect ratio */
     position: absolute; /* Position the image absolutely */
     top: 20%; /* Align to the top */
-    left: 25%; /* Align to the left */
+    left: 5%; /* Align to the left */
     margin: 10px;/* Optional: add margin to prevent touching the edges */
     border-radius: 100px;
 }
@@ -223,9 +223,11 @@ body{
 }
 .pro-content {
     padding-left: 15%;
+    
 }
 .pro-content a{
     color:rgb(8, 8, 9);
+    
 }
 
 .contact{
@@ -261,20 +263,18 @@ body{
         width: 200px; /* Adjust the width to the desired size */
         height: 250px; /* Maintain the aspect ratio */
         position: absolute; /* Position the image absolutely */
-        top: 15%; /* Align to the top */
-        left: 30%; /* Align to the left */
+        top: 18%; /* Align to the top */
+        left: 28%; /* Align to the left */
         margin: 10px;/* Optional: add margin to prevent touching the edges */
         border-radius: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-botom:5%;
-        
     }
     .name{
         padding: 0px;
         text-align: center;
-        margin-top: 60%;
+        margin-top: 70%;
        
     }
     .objective{
@@ -346,6 +346,15 @@ body{
         margin: 10px;
         padding-bottom: 20px;
         
+    }
+    
+    .app{
+        display: flex;
+        gap: 20px;
+        justify-content: left; /* Centers the images horizontally */
+         /* Allows wrapping of images if needed */
+        padding-left: 20px;
+        flex-wrap: wrap;
     }
     /*certificate*/
     .certificate h1{
