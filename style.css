@@ -262,12 +262,13 @@ body{
         height: 250px; /* Maintain the aspect ratio */
         position: absolute; /* Position the image absolutely */
         top: 10%; /* Align to the top */
-        left: 20%; /* Align to the left */
+        left: 25%; /* Align to the left */
         margin: 10px;/* Optional: add margin to prevent touching the edges */
         border-radius: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-botom:5%;
         
     }
     .name{
