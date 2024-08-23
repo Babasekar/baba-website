@@ -261,8 +261,8 @@ body{
         width: 200px; /* Adjust the width to the desired size */
         height: 250px; /* Maintain the aspect ratio */
         position: absolute; /* Position the image absolutely */
-        top: 10%; /* Align to the top */
-        left: 25%; /* Align to the left */
+        top: 15%; /* Align to the top */
+        left: 30%; /* Align to the left */
         margin: 10px;/* Optional: add margin to prevent touching the edges */
         border-radius: 100px;
         display: flex;
@@ -274,7 +274,7 @@ body{
     .name{
         padding: 0px;
         text-align: center;
-        margin-top: 70%;
+        margin-top: 60%;
        
     }
     .objective{
