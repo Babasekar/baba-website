@@ -264,7 +264,7 @@ body{
         height: 250px; /* Maintain the aspect ratio */
         position: absolute; /* Position the image absolutely */
         top: 18%; /* Align to the top */
-        left: 28%; /* Align to the left */
+         /* Align to the left */
         margin: 10px;/* Optional: add margin to prevent touching the edges */
         border-radius: 100px;
         display: flex;
@@ -313,12 +313,13 @@ body{
         gap: 30px; /* Adds space between each edu block */
         padding: 50px;
         padding-left: 30%;
+        
     }
     .edu{
         font-size: .6em;
-        width: 60%;
+        width: 80%;
         flex-direction: column ;
-        height: 100px;
+        height: 110px;
         
 
     }
