@@ -264,6 +264,9 @@ body{
         left: 28%; /* Align to the left */
         margin: 10px;/* Optional: add margin to prevent touching the edges */
         border-radius: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .name{
         padding: 0px;
