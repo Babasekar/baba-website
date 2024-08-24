@@ -314,7 +314,9 @@ body{
         text-align: center;
         font-size: 0.9em; /* Adjusted for readability on mobile */
     }
-
+    .name span{
+    color: rgb(94, 93, 93);
+}
     .objective h2 {
         font-size: 1.2em; /* Adjusted font size */
     }
@@ -399,7 +401,7 @@ body{
     .pro-content {
         padding-left: 20%;
         font-size:.6em ;
-        
+        padding-right:5%;
     }
     /*contact*/
     .contact h1{
