@@ -86,38 +86,48 @@ body{
 }
 /*header*/
 
-.name{
+.header {
+    display: grid;
+    grid-template-columns: 250px 1fr; /* Image on the left, content on the right */
+    align-items: center; /* Vertically center the content */
+    gap: 20px; /* Add space between the image and text */
+    margin: 20px; /* Add margin around the header */
+}
 
-    align-items: center;
-   
-}
 .img {
-    width: 200px; /* Adjust the width to the desired size */
-    height: 250px; /* Maintain the aspect ratio */
-    position: absolute; /* Position the image absolutely */
-    top: 20%; /* Align to the top */
-    left: 5%; /* Align to the left */
-    margin: 10px;/* Optional: add margin to prevent touching the edges */
-    border-radius: 100px;
-}
-.name{
-   
-    margin-top: 8%;
-    padding-left: 330px;
-}
-.objective{
     width: 100%;
+    height: 20%;
+    border-radius: 70%; /* Make the image circular */
 }
-.objective span{
+
+.objective {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically within the grid */
+}
+
+.name {
+    font-size: 2em;
+    margin: 0;
+}
+
+.obj {
+    margin-top: 10px;
+    font-size: 1.5em;
     color: rgb(94, 93, 93);
 }
-.obj{
-    
-    padding-left: 330px;
+.obj1{
+    font-size: 1em;
 }
+.obj-content {
+    margin-top: 10px;
+    line-height: 1.5;
+    
+}
+
 /*about*/
 .about h1{
-    padding-top: 8%;
+    padding-top: 3%;
     padding-left: 5%;
 }
 .aboutin p{
@@ -126,7 +136,7 @@ body{
 /* Education*/
 
 .edu-full {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .edu-top {
@@ -140,7 +150,7 @@ body{
     justify-content: center;
     gap: 30px; /* Adds space between each edu block */
     padding: 50px;
-
+    margin-left: 1%;
     
 }
 
@@ -202,7 +212,7 @@ body{
 /*certificate*/
 .certificate h1{
     padding-left:5% ;
-    padding-top: 20px;
+    margin-top: 3%;
     padding-bottom: 20px;
 }
 .inside-c1{
@@ -220,6 +230,7 @@ body{
     padding-left:5% ;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 2%;
 }
 .pro-content {
     padding-left: 15%;
@@ -262,45 +273,50 @@ body{
         flex-direction: column;
         justify-content: center;
     }
+    .header {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column for mobile */
+        grid-template-rows: auto auto; /* Image and text stack vertically */
+        gap: 20px; /* Space between grid items */
+        align-items: center;
+        justify-items: center;
+    }
+
     .image {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%; /* Make sure the div takes full width */
-        margin-bottom: 20px; /* Add margin below the image */
     }
-    .image img{
-        padding-left:20%;
-    }
+
     .img {
-        width: 200px; /* Adjust the width to the desired size */
-        height: 250px; /* Maintain the aspect ratio */
+        width: 150px; /* Adjust the width to fit mobile screen */
+        height: 200px; /* Maintain the aspect ratio */
         border-radius: 100px;
     }
 
-    .name {
-        padding: 0px;
-        text-align: center;
-        margin-top: 20px; /* Set the gap between image and name to 20px */
-    }
-    .objective{
+    .objective {
         width: 100%;
+        text-align: center;
     }
-   
-    
-    .obj{
-       padding: 0;
-       
-       padding-left: 10%;
-       padding-right: 10%;
-       justify-content: center;
-       text-align: center;
-       font-size: 0.6em;
+
+    .name {
+        margin-top: 0;
+        font-size: 1.5em; /* Adjust the font size for mobile */
     }
-    .objective h2{
-        font-size:large;
+
+    .obj {
+        padding-left: 10%;
+        padding-right: 10%;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.9em; /* Adjusted for readability on mobile */
     }
-    
+
+    .objective h2 {
+        font-size: 1.2em; /* Adjusted font size */
+    }
+
     /*about*/
     .aboutin{
         font-size: .6em;
