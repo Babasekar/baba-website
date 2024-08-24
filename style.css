@@ -110,11 +110,13 @@ body{
     font-size: 2em;
     margin: 0;
 }
-
+.name span{
+    color: rgb(94, 93, 93);
+}
 .obj {
     margin-top: 10px;
     font-size: 1.5em;
-    color: rgb(94, 93, 93);
+    
 }
 .obj1{
     font-size: 1em;
