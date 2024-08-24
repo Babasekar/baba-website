@@ -121,11 +121,7 @@ body{
 .obj1 p{
     font-size: 1em;
 }
-.obj-content {
-    margin-top: 10px;
-    line-height: 1.5;
-    
-}
+
 /*about*/
 .about h1{
     padding-top: 3%;
